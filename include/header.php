@@ -20,7 +20,7 @@
 					<li><a class="nav-link" href="about-us.php">About us</a></li>
 					<li><a class="nav-link" href="services.php">Services</a></li>
 					<li><a class="nav-link" href="gallery.php">Gallery</a></li>
-					<li><a class="nav-link" href="blog.php">Blog</a></li>
+					<!-- <li><a class="nav-link" href="blog.php">Blog</a></li> -->
 					<li class="active"><a class="nav-link" href="contact-us.php">Contact us</a></li>
 				</ul>
 
