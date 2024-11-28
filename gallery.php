@@ -16,6 +16,11 @@
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="images/logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <style>
+        header {
+            position: relative;
+        }
+    </style>
 </head>
 
 <body>
