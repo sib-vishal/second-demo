@@ -1,4 +1,62 @@
 <?php $page = 'services'; ?>
+<?php
+
+// Creating an array with the new structure, including titles and descriptions
+$whyChooseUs = [
+    [
+        "title" => "ALL-ROUND SUPPORT",
+        "description" => "We administer an all-inclusive approach to support that encompasses housing, 24/7 care, medical assistance, and help with daily living activities, ensuring that all of your needs are met in one place.",
+        "image" => "images/icons/why/healthcare.png"
+    ],
+    [
+        "title" => "CARING TEAM",
+        "description" => "Our care attendants are trained professionals who treat every client with respect, dignity, and kindness, creating a safe and welcoming environment.",
+        "image" => "images/icons/why/console.png"
+    ],
+    [
+        "title" => "PERSONALISED SUPPORT",
+        "description" => "We treat each person differently, and our care is unique to their needs and preferences.",
+        "image" => "images/icons/why/examination.png"
+    ],
+    [
+        "title" => "Community Integration",
+        "description" => "We are proactive in supporting our clients to maintain community ties and independence and a sense of belonging within the community.",
+        "image" => "images/icons/why/community (2).png"
+    ],
+    [
+        "title" => "Reliable Medical Coordination",
+        "description" => "Our transportation services include support to ensure that our clients are safely and punctually transported to scheduled appointments, and that they are managing their medications properly and taking their required medications.",
+        "image" => "images/icons/why/protection.png"
+    ],
+    [
+        "title" => "Accessible Locations",
+        "description" => "We have numerous centers around Philadelphia, so help is always close when needed.",
+        "image" => "images/icons/why/location.png"
+    ],
+    [
+        "title" => "Commitment to Dignity",
+        "description" => "We at Second Bloom encourage our seniors and those with disabilities to live an assured life, determined and bold with confidence.",
+        "image" => "images/icons/why/relationship.png"
+    ],
+    [
+        "title" => "Proven Experience",
+        "description" => "We develop trusted service through our years of experience with our dedication towards improving the quality of life of those we care for.",
+        "image" => "images/icons/why/expertise.png"
+    ],
+    [
+        "title" => "Family Peace of Mind",
+        "description" => "Knowing your loved ones are in caring and capable hands brings unparalleled reassurance to families.",
+        "image" => "images/icons/why/mindful.png"
+    ],
+    [
+        "title" => "Affordable and Accessible",
+        "description" => "We strive to offer quality care at competitive rates, ensuring accessibility for everyone in need.",
+        "image" => "images/icons/why/affordable.png"
+    ]
+]; ?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -126,8 +184,6 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
 
             </div>
@@ -140,145 +196,25 @@
                             <span class="text_secondary"> Why Choose</span> <span class="text_primary">Second
                                 Bloom</span>
                         </h4>
-                        <p class="mt-4">
+                        <!-- <p class="mt-4">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, maiores? adipisicing
                             elit. Recusandae, maiores?
-                        </p>
+                        </p> -->
                         <div class="pe-5 mt-4">
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
+                            <?php foreach ($whyChooseUs as $content): ?>
+                                <div class="why-card-item mb-4">
+                                    <div class="img_box">
 
-                                        <img src="https://placehold.co/100x100" alt="ALL-ROUND SUPPORT"
+                                        <img src="<?php echo $content['image']; ?>" alt="<?php echo $content['title']; ?>"
                                             class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">ALL-ROUND SUPPORT</h4>
-                                    <p class="mt-3">We administer an all-inclusive approach to support that encompasses
-                                        housing, 24/7 care, medical assistance, and help with daily living activities,
-                                        ensuring that all of your needs are met in one place.</p>
+                                    </div>
+                                    <div class="why_content mt-4">
+                                        <h4 class="fontHeading  fontWeight600"><?php echo $content['title']; ?></h4>
+                                        <p class="mt-3"><?php echo $content['description']; ?></p>
+                                    </div>
+
                                 </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="CARING TEAM"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">CARING TEAM</h4>
-                                    <p class="mt-3">Our care attendants are trained professionals who treat every client
-                                        with respect, dignity, and kindness, creating a safe and welcoming environment.
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="PERSONALISED SUPPORT"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">PERSONALISED SUPPORT</h4>
-                                    <p class="mt-3">We treat each person differently, and our care is unique to their
-                                        needs and preferences.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Community Integration"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Community Integration</h4>
-                                    <p class="mt-3">We are proactive in supporting our clients to maintain community
-                                        ties and independence and a sense of belonging within the community.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Reliable Medical Coordination"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Reliable Medical Coordination</h4>
-                                    <p class="mt-3">Our transportation services include support to ensure that our
-                                        clients are safely and punctually transported to scheduled appointments, and
-                                        that they are managing their medications properly and taking their required
-                                        medications.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Accessible Locations"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Accessible Locations</h4>
-                                    <p class="mt-3">We have numerous centers around Philadelphia, so help is always
-                                        close when needed.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Commitment to Dignity"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Commitment to Dignity</h4>
-                                    <p class="mt-3">We at Second Bloom encourage our seniors and those with disabilities
-                                        to live an assured life, determined and bold with confidence.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Proven Experience"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Proven Experience</h4>
-                                    <p class="mt-3">We develop trusted service through our years of experience with our
-                                        dedication towards improving the quality of life of those we care for.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Family Peace of Mind"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Family Peace of Mind</h4>
-                                    <p class="mt-3">Knowing your loved ones are in caring and capable hands brings
-                                        unparalleled reassurance to families.</p>
-                                </div>
-
-                            </div>
-                            <div class="why-card-item mb-4">
-                                <!-- <div class="img_box">
-
-                                        <img src="https://placehold.co/100x100" alt="Affordable and Accessible"
-                                            class="why-card-image">
-                                    </div> -->
-                                <div class="why_content">
-                                    <h4 class="fontHeading  fontWeight600">Affordable and Accessible</h4>
-                                    <p class="mt-3">We strive to offer quality care at competitive rates, ensuring
-                                        accessibility for everyone in need.</p>
-                                </div>
-
-                            </div>
+                            <?php endforeach; ?>
                         </div>
 
                     </div>
@@ -286,11 +222,11 @@
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                    class="active" aria-label="Slide 1" aria-current="true"></button>
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                    aria-label="Slide 2" class=""></button>
+                                    aria-label="Slide 2"></button>
                                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                    aria-label="Slide 3" class=""></button>
+                                    aria-label="Slide 3"></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -318,7 +254,6 @@
                 </div>
             </div>
         </section>
-
 
 
 

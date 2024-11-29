@@ -6,52 +6,52 @@ $whyChooseUs = [
     [
         "title" => "ALL-ROUND SUPPORT",
         "description" => "We administer an all-inclusive approach to support that encompasses housing, 24/7 care, medical assistance, and help with daily living activities, ensuring that all of your needs are met in one place.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/healthcare.png"
     ],
     [
         "title" => "CARING TEAM",
         "description" => "Our care attendants are trained professionals who treat every client with respect, dignity, and kindness, creating a safe and welcoming environment.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/console.png"
     ],
     [
         "title" => "PERSONALISED SUPPORT",
         "description" => "We treat each person differently, and our care is unique to their needs and preferences.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/examination.png"
     ],
     [
         "title" => "Community Integration",
         "description" => "We are proactive in supporting our clients to maintain community ties and independence and a sense of belonging within the community.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/community (2).png"
     ],
     [
         "title" => "Reliable Medical Coordination",
         "description" => "Our transportation services include support to ensure that our clients are safely and punctually transported to scheduled appointments, and that they are managing their medications properly and taking their required medications.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/protection.png"
     ],
     [
         "title" => "Accessible Locations",
         "description" => "We have numerous centers around Philadelphia, so help is always close when needed.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/location.png"
     ],
     [
         "title" => "Commitment to Dignity",
         "description" => "We at Second Bloom encourage our seniors and those with disabilities to live an assured life, determined and bold with confidence.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/relationship.png"
     ],
     [
         "title" => "Proven Experience",
         "description" => "We develop trusted service through our years of experience with our dedication towards improving the quality of life of those we care for.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/expertise.png"
     ],
     [
         "title" => "Family Peace of Mind",
         "description" => "Knowing your loved ones are in caring and capable hands brings unparalleled reassurance to families.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/mindful.png"
     ],
     [
         "title" => "Affordable and Accessible",
         "description" => "We strive to offer quality care at competitive rates, ensuring accessibility for everyone in need.",
-        "image" => "https://placehold.co/100x100"
+        "image" => "images/icons/why/affordable.png"
     ]
 ]; ?>
 
@@ -93,11 +93,9 @@ $whyChooseUs = [
                                         </h1>
                                         <!-- <div class="d-flex justify-content-center"> -->
                                         <p class="mt-3 fontWeight500   fade-up fade-up-3 pe-lg-5">
-                                            With over 14 years of experience in the healthcare industry, we are
-                                            dedicated to
-                                            providing you with expert care and guidance, ensuring your well-being is
-                                            in trusted
-                                            hands every
+                                            With years of experience and an expert team, Second Bloom is dedicated to
+                                            providing compassionate care and tailored support to ensure every client
+                                            lives safely and comfortably
                                         </p>
                                         <!-- </div> -->
 
@@ -165,7 +163,8 @@ $whyChooseUs = [
                 <div class="row g-5">
                     <div class="col-lg-6 ">
                         <h6 class="text_secondary text-uppercase ">About Us</h6>
-                        <h4 class="mb-4 heading fontHeading fontWeight600 mt-3 text_primary">A Heading Lorem Ipsum</h4>
+                        <h4 class="mb-4 heading fontHeading fontWeight600 mt-3 text_primary">Empowering Lives with Care
+                        </h4>
                         <p class="mb-4">At Second Bloom, we strive to make a difference in the lives of the elderly and
                             disabled who may require the support to live safely and comfortably. We have multiple
                             locations throughout the city of Philadelphia, PA.
@@ -176,11 +175,11 @@ $whyChooseUs = [
                             care that includes dignity, independence, and a sense of belonging for those we serve.
 
                         </p>
-                        <p>
+                        <!-- <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam temporibus quia
                             blanditiis obcaecati quaerat necessitatibus molestiae repellat optio doloribus reiciendis
                             commodi ratione et, corporis ea magni sint iure accusantium?
-                        </p>
+                        </p> -->
 
                         <div>
                             <div class="mt-5">
@@ -202,11 +201,11 @@ $whyChooseUs = [
                     </div>
                     <div class="col-lg-6 pt-4" style="min-height: 500px;">
                         <div class="position-relative h-100 ">
-                            <img class="position-absolute img-fluid w-100 h-100" src="images/about.jpeg"
+                            <img class="position-absolute img-fluid w-100 h-100" src="images/pexels-rdne-6646990.jpg"
                                 style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
-                            <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50"
+                            <!-- <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50"
                                 src="https://images.pexels.com/photos/27086771/pexels-photo-27086771/free-photo-of-an-older-man-sitting-on-a-couch-using-his-cell-phone.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=1"
-                                style="object-fit: cover;" alt="">
+                                style="object-fit: cover;" alt=""> -->
                         </div>
                     </div>
                 </div>
@@ -216,7 +215,7 @@ $whyChooseUs = [
         <section class="bg_third">
             <div class="containerFull">
                 <div class="row">
-                    <div class="">
+                    <div class="col-lg-6">
                         <div class=" about-section  pe-4">
                             <video autoplay="" loop="" muted="">
                                 <source src="images/about.mp4" type="video/mp4">
@@ -226,48 +225,63 @@ $whyChooseUs = [
                         </div>
 
                     </div>
-                    <div class=" mt-5 row">
-                        <div class="col-lg-6">
-                            <h4 class="heading fontHeading fontWeight600  text-light text-decoration-underline "
-                                style="text-underline-offset: 10px;">
-                                Our Purpose
-                            </h4>
+                    <div class="col-lg-6">
+                        <h4 class="heading fontHeading fontWeight600  text-light text-decoration-underline "
+                            style="text-underline-offset: 10px;">
+                            Our Purpose
+                        </h4>
 
-                            <p class="text-light mt-4">
-                                With over 47 million senior citizens living alone in the United States, many face
-                                challenges
-                                regarding maintaining their everyday lives due to health issues, mobility impairments,
-                                or
-                                other unreliable sources of support. Following a series of discussions we held with
-                                social
-                                workers from around Philadelphia, we realized there was an urgent need: the acquisition
-                                of
-                                suitable housing and adequate care for seniors with disabilities or insecurities
-                                concerning
-                                housing.
-                                It was this realization that motivated Second Bloom. Our purpose is to connect people,
-                                providing holistic care and advocating for those who need it most.
-                            </p>
-                        </div>
-                        <div class="col-lg-6">
-                            <h4 class="heading fontHeading fontWeight600   text-light text-decoration-underline "
-                                style="text-underline-offset: 10px;">
-                                What We Do
-                            </h4>
-                            <p class="mt-4 text-light">
+                        <p class="text-light mt-4">
+                            With over 47 million senior citizens living alone in the United States, many face challenges
+                            regarding maintaining their everyday lives due to health issues, mobility impairments, or
+                            other unreliable sources of support. Following a series of discussions we held with social
+                            workers from around Philadelphia, we realized there was an urgent need: the acquisition of
+                            suitable housing and adequate care for seniors with disabilities or insecurities concerning
+                            housing.
+                            It was this realization that motivated Second Bloom. Our purpose is to connect people,
+                            providing holistic care and advocating for those who need it most.
+                        </p>
+
+                        <!-- <h4 class="heading fontHeading fontWeight600 mt-4  text-light text-decoration-underline "
+                            style="text-underline-offset: 10px;">
+                            What We Do
+                        </h4>
+                        <p class="mt-4 text-light">
 
 
-                                At Second Bloom, we offer more than just housing solutions. We
-                                believe that everyone deserves a supportive environment that addresses both physical and
-                                emotional needs. Our services include:
-                            </p>
-                            <p class="mt-4 text-light">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae odit quam voluptates
-                                veniam illum animi cupiditate culpa voluptatum ex cumque?
-                            </p>
-                        </div>
+                            At Second Bloom, we offer more than just housing solutions. We
+                            believe that everyone deserves a supportive environment that addresses both physical and
+                            emotional needs. Our services include:
+                        </p> -->
+
                     </div>
+
+
                 </div>
+
+            </div>
+        </section>
+        <section class="bg_forth">
+            <div class="containerFull">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h4 class="heading fontHeading fontWeight600  ">
+                            What We Do
+
+                        </h4>
+                        <p class="mt-3">
+                            At Second Bloom, we offer more than just housing solutions. We believe that everyone
+                            deserves a supportive environment that addresses both physical and emotional needs.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-end">
+                        <a href="#" class="btn_2">
+                            Connect with Us for Appointment
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
@@ -494,7 +508,7 @@ $whyChooseUs = [
                             </div>
                             <div class="item_img">
                                 <div class="item_img_inner">
-                                    <img src="https://img.freepik.com/free-photo/senior-woman-showing-her-doctor-photo-frame_23-2148962335.jpg?t=st=1732777435~exp=1732781035~hmac=2cc71ccb3b182f1ae5d4b90c5c3395b7735d0537522869f26ea9504aaea8145a&w=740"
+                                    <img src="images/man-holding-pile-clean-clothes.jpg"
                                         alt="">
                                 </div>
 
@@ -505,7 +519,7 @@ $whyChooseUs = [
 
                             <div class="item_img">
                                 <div class="item_img_inner">
-                                    <img src="https://img.freepik.com/free-photo/senior-woman-showing-her-doctor-photo-frame_23-2148962335.jpg?t=st=1732777435~exp=1732781035~hmac=2cc71ccb3b182f1ae5d4b90c5c3395b7735d0537522869f26ea9504aaea8145a&w=740"
+                                    <img src="images/bathing.png"
                                         alt="">
                                 </div>
 
@@ -628,19 +642,19 @@ $whyChooseUs = [
                             <span class="text_secondary"> Why Choose</span> <span class="text_primary">Second
                                 Bloom</span>
                         </h4>
-                        <p class="mt-4">
+                        <!-- <p class="mt-4">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae, maiores? adipisicing
                             elit. Recusandae, maiores?
-                        </p>
+                        </p> -->
                         <div class="pe-5 mt-4">
                             <?php foreach ($whyChooseUs as $content): ?>
                                 <div class="why-card-item mb-4">
-                                    <!-- <div class="img_box">
+                                    <div class="img_box">
 
                                         <img src="<?php echo $content['image']; ?>" alt="<?php echo $content['title']; ?>"
                                             class="why-card-image">
-                                    </div> -->
-                                    <div class="why_content">
+                                    </div>
+                                    <div class="why_content mt-4">
                                         <h4 class="fontHeading  fontWeight600"><?php echo $content['title']; ?></h4>
                                         <p class="mt-3"><?php echo $content['description']; ?></p>
                                     </div>
@@ -697,19 +711,18 @@ $whyChooseUs = [
                             GET IN TOUCH
                         </small>
                         <h4 class="mt-3 fontHeading  heading text-light ">
-                            Contact with us for <span class="text_forth">Health Care Services</span>
+                            Contact with us for <span class="text_forth">for an Appointment</span>
                         </h4>
 
                         <p class="mt-3 pe-lg-5 text-light">
-                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-                            labore aperiam odit, alias assumenda ducimus.
+                            At Second Bloom, we are committed to giving elderly and disabled people care and support in
+                            a way that ensures they live safely, comfortably, and with dignity. We are located in
+                            Philadelphia, PA, and offer services such as housing, 24/7 care, medical assistance, and
+                            daily living support. Let us help you or your loved ones bloom again with a trusted
+                            partner in care.
 
                         </p>
-                        <p class="mt-3 pe-lg-5 text-light">
-                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-                            labore aperiam odit, alias assumenda ducimus.
 
-                        </p>
 
                         <div class="mt-5">
                             <a class="btn_5" href="tel:+91-0123456789">

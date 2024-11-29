@@ -14,14 +14,24 @@
 
 			<div class="navbar-collapse collapse" id="navbarsbloom" style="">
 				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
-					<li class="nav-item">
+
+					<a href="index.php"
+						class="nav-item nav-link <?php echo ($page == 'home') ? 'active' : ''; ?>">Home</a>
+					<a href="about-us.php"
+						class="nav-item nav-link  <?php echo ($page == 'about') ? 'active' : ''; ?>">About Us</a>
+					<a href="services.php"
+						class="nav-item nav-link  <?php echo ($page == 'services') ? 'active' : ''; ?>">Our Services</a>
+					<a href="gallery.php"
+						class="nav-item nav-link  <?php echo ($page == 'gallery') ? 'active' : ''; ?>">Gallery</a>
+
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="index.php">Home</a>
 					</li>
 					<li><a class="nav-link" href="about-us.php">About us</a></li>
 					<li><a class="nav-link" href="services.php">Services</a></li>
 					<li><a class="nav-link" href="gallery.php">Gallery</a></li>
-					<!-- <li><a class="nav-link" href="blog.php">Blog</a></li> -->
-					<li class="active"><a class="nav-link" href="contact-us.php">Contact us</a></li>
+					<li><a class="nav-link" href="blog.php">Blog</a></li> -->
+					<a class="nav-link nav-item	<?php echo ($page == 'contact') ? 'active' : ''; ?>" href="contact-us.php">Contact us</a></li>
 				</ul>
 
 				<ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5 d-none d-lg-block">

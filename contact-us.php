@@ -26,7 +26,7 @@
 <body>
     <?php include 'include/header.php'; ?>
     <div class="wrapper">
-    <div class="page-banner">
+        <div class="page-banner">
             <div class="banner-inner  ">
                 <div class="containerFull w-100">
                     <h1 class="fontHeading heading text-white fontWeight600 ">
@@ -45,37 +45,32 @@
                         <small class="fontWeight600 text-white-50 ">
                             GET IN TOUCH
                         </small>
-                        <h4 class="mt-3 fontHeading  heading text_primary ">
-                            Contact with us for <span class="text_forth">Health Care Services</span>
+                        <h4 class="mt-3 fontHeading  heading  ">
+                            Contact with us for <span class="text_forth">for an Appointment</span>
                         </h4>
 
                         <p class="mt-3 pe-lg-5 ">
-                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-                            labore aperiam odit, alias assumenda ducimus.
+                            At Second Bloom, we are committed to giving elderly and disabled people care and support in
+                            a way that ensures they live safely, comfortably, and with dignity. We are located in
+                            Philadelphia, PA, and offer services such as housing, 24/7 care, medical assistance, and
+                            daily living support. Let us help you or your loved ones bloom again with a trusted
+                            partner in care.
 
                         </p>
-                        <p class="mt-3 pe-lg-5 ">
-                            we are health service Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-                            labore aperiam odit, alias assumenda ducimus.
-
                         </p>
 
-                        <div class="section-button section-button-left mt-5">
-
-                            <a href="tel:0123456789">
-                                <div class=" mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg_secondary d-flex align-items-center"
-                                    style="width:fit-content">
-                                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white"
-                                        style="width: 45px; height: 45px;">
-                                        <i class="fa fa-phone-alt text_primary"></i>
-                                    </div>
-                                    <div class="ms-3">
-                                        <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
-                                        <h5 class="m-0 text-secondary text-light">+012 345 6789</h5>
-                                    </div>
-                                </div>
-                            </a>
-
+                        <div class="mt-5">
+                            <a class="btn_3" href="tel:+91-0123456789">
+                                <span class=" btn_icon bg-white circle pulse">
+                                    <i class="fa-solid fa-phone   "></i>
+                                </span> <span>
+                                    <p class="btn_letterspacing  ">
+                                        Contact with us
+                                    </p>
+                                    <h4 class="fontWeight700">
+                                        +91-0123456789
+                                    </h4>
+                                </span> &nbsp;</a>
                         </div>
                     </div>
                     <div class="col-lg-6 ps-5">
